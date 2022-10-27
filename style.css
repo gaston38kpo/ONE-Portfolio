@@ -35,6 +35,10 @@ a {
   text-decoration: none;
   color: var(--cor-de-link);
 }
+a:hover,
+button:hover{
+  cursor: pointer;
+}
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 
