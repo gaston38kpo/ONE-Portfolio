@@ -30,7 +30,9 @@
             <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
             <li class="menu__list__item"><a href="#formacion">Formación</a></li>
             <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-            <li class="menu__list__item"><a href="#contacto">lu0210035@gmail.com</a></li>
+            <li class="menu__list__item">
+              <a href="#contacto">lu0210035@gmail.com</a>
+            </li>
           </ul>
           <li class="menu__list__item__contato">
             <a href="#contacto">lu0210035@gmail.com</a>
@@ -44,11 +46,13 @@
           <img class="title__profile" src="assets\profile.png" />
           <div class="title__container">
             <h2 class="title__bio">
-              Hola, mi nombre es Gaston Giacobini, tengo 30 a&ntilde;os, soy de Argentina y construyo paginas web,
+              Hola, mi nombre es Gaston Giacobini, tengo 30 a&ntilde;os, soy de
+              Argentina y construyo paginas web,
             </h2>
             <h3 class="title__subsection">
-              Tengo conocimientos en el apartado FullStack Python y actualmente estoy
-              participando del proyecto Oracle ONE en Alura Latam para formarme en el apartado FullStack Java.
+              Tengo conocimientos en el apartado FullStack Python y actualmente
+              estoy participando del proyecto Oracle ONE en Alura Latam para
+              formarme en el apartado FullStack Java.
             </h3>
             <ul class="title__network">
               <!-- Pon los enlaces de tus redes sociales favoritas -->
@@ -181,7 +185,6 @@
               </li>
             </ul>
           </div>
-          
         </div>
       </section>
 
@@ -260,12 +263,15 @@
               Complete el siguiente formulario y me pondré en contacto con usted
               lo antes posible.
             </h3>
-            <form class="formcontato__form" name="form">
+            <form class="formcontato__form" name="form" id="form">
               <input
                 class="formcontato__input"
                 type="text"
                 name="nombre"
+                id="nombre"
                 placeholder="Nombre"
+                required
+                maxlength="50"
                 autocomplete="off"
                 aria-autocomplete="none"
               />
@@ -273,7 +279,9 @@
                 class="formcontato__input"
                 type="email"
                 name="email"
+                id="email"
                 placeholder="E-mail"
+                required
                 autocomplete="off"
                 aria-autocomplete="none"
               />
@@ -281,7 +289,10 @@
                 class="formcontato__input"
                 type="text"
                 name="asunto"
+                id="asunto"
                 placeholder="Asunto"
+                required
+                maxlength="50"
                 autocomplete="off"
                 aria-autocomplete="none"
               />
@@ -289,20 +300,21 @@
                 class="formcontato__textarea"
                 rows="5"
                 cols="40"
-                id="mensagem"
+                id="mensage"
                 name="mensaje"
                 placeholder="Mensaje"
+                required
+                maxlength="300"
                 autocomplete="off"
                 aria-autocomplete="none"
               ></textarea>
-              <button type="submit" class="formcontato__botao">
+              <button type="submit" id="btnEnviar" class="formcontato__botao" disabled>
                 Enviar mensaje
               </button>
             </form>
           </div>
         </div>
       </section>
-
     </div>
     <!-- Sección de Footer -->
     <section class="footer">
