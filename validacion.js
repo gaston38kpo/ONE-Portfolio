@@ -2,7 +2,7 @@
 const form = document.getElementById("form");
 const sendBtn = document.getElementById("btnEnviar");
 
-let userName = form.nombre;
+const userName = form.nombre;
 const email = form.email;
 const asunt = form.asunto;
 const message = form.mensaje;
