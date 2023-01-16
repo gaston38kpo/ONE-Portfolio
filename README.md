@@ -19,7 +19,7 @@
 ]
 ```
 
-## Diseño responsivo del Des/Encriptador:
+## Diseño responsivo del Portfolio:
 
 | 🖥DESKTOP | 💻TABLET | 📱MOBILE |
 | ----------- | ----------- | ----------- |
